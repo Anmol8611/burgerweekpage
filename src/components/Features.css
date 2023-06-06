@@ -93,6 +93,15 @@
     color: var(--font-primary);
 }
 
+.featureContent div Button {
+    transition: all 0.2s;
+}
+
+.featureContent div Button:hover {
+    box-shadow: 0 5px 20px #3e3b3b;
+    transition: all 0.2s;
+}
+
 .featureContent h2 {
     font-size: 54px;
     font-weight: bolder;

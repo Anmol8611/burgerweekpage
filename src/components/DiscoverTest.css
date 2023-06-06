@@ -1,0 +1,44 @@
+.discoverContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: var(--font-primary);
+    box-shadow: 0 2px 8px #5e5d5d;
+    padding: 100px 0;
+    max-width: 95vw;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.discoverContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.discoverContent h4 {
+    line-height: 36px;
+    letter-spacing: -2px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.discoverContent h2 {
+    font-size: 54px;
+    font-weight: bolder;
+    text-shadow: 10px var(--font-primary);
+}
+
+.discoverContent p {
+    line-height: 28px;
+    font-size: 20px;
+    text-align: left;
+    max-width: 800px;
+    color: black;
+}
+
+.discoverImage img {
+    border-radius: 10px;
+}

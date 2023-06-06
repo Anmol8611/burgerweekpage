@@ -1,0 +1,81 @@
+.registrationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 600px;
+    padding: 50px 0;
+}
+
+.initialImages {
+    display: flex;
+    flex-direction: column;
+}
+
+.burger {
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+}
+
+.drink {
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.initialImages:nth-child(2) {
+    margin-top: 50px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: var(--font-primary);
+    margin-left: -100px;
+}
+
+.formContainer h4 {
+    line-height: 36px;
+    letter-spacing: -2px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.formContainer h2 {
+    font-size: 54px;
+    font-weight: bolder;
+    text-shadow: 10px var(--font-primary);
+}
+
+.registrationForm {
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+            "i1 i2"
+            "i3 i4"
+            "i5 i6"
+    ;
+}
+
+.registrationForm input {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 25px 20px;
+    min-width: 600px ;
+    border-radius: 5px;
+    background-color: var(--orange-color);
+    border: none;
+}
+
+.registrationForm Button {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.lastImage {
+    margin-top: 500px;
+}
