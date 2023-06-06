@@ -1,11 +1,15 @@
-
 import './App.css'
+import Header from './components/Header'
+import Features from './components/Features';
+import Menu from './components/Menu';
 
 const App = () => {
 
   return (
     <>
-      <h1>PSD 1</h1>
+      <Header/>
+      <Features/>
+      <Menu/>
     </>
   )
 }

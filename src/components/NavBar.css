@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.navContent {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.delivery {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: var(--font-primary);
+    margin-right: 5px;
+}
+
+.deliveryLogo {
+    margin-right: 20px;
+}
+
+.navOptions ul {
+    display: flex;
+    gap: 80px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.navOptions ul li {
+    list-style: none;
+}
+
+.navOptions ul li a {
+    text-decoration: none;
+    color: var(--font-primary);
+}
