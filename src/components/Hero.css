@@ -41,8 +41,35 @@
 .heroImages {
     margin-right: 300px;
     margin-bottom: 80px;
+    width: 100vw;
 }
 
 .heroImages img {
     height: 450px;
+}
+
+.heroImages img:nth-child(1) {
+    position: absolute;
+    z-index: 3;
+    bottom: 150px;
+    left: 1200px;
+    width: 420px;
+    height: 400px;
+
+}
+
+.heroImages img:nth-child(2) {
+    position: absolute;
+    z-index: 2;
+    left: 1500px;
+    bottom: 200px;
+}
+
+.heroImages img:nth-child(3) {
+    z-index: 1;
+    position: absolute;
+    left: 1050px;
+    bottom: 350px;
+    height: 380px;
+    width: 350px;
 }

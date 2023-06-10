@@ -11,6 +11,8 @@ const Hero = () => {
         </div>
         <div className="heroImages">
           <img src="/burgerAssets/HeroBurger.png" alt="HeroBurger" />
+          <img src="/burgerAssets/HeroDrink.png" alt="HeroBurger" />
+          <img src="/burgerAssets/HeroFrenchFries.png" alt="HeroBurger" />
         </div>
       </section>
   )
